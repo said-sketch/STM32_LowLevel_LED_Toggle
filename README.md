@@ -43,4 +43,5 @@ This register controls the clocks for all GPIO ports. You must **enable the cloc
 ```c
 RCC->AHB1ENR |= (1 << 0);  // Enable GPIOA clock
 
-> Remember: Low-level programming is all about **reading the manual, understanding the registers, and controlling bits**. Once you master this, you can program any peripheral without relying on HAL or high-level libraries.
+**Note:** Remember that low-level programming is all about *reading the manual, understanding the registers, and controlling bits*. Once you master this, you can program any peripheral without HAL or high-level libraries.
+
